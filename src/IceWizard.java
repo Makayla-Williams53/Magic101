@@ -1,18 +1,18 @@
 public class IceWizard extends Wizard
 {
     //1) instance variables
-    int snowball;
-    boolean iceSpear;
-    String gollumName;
+        int snowball;
+        boolean iceSpear;
+        String gollumName;
 
     //2) constructors
-    public IceWizard(String name, int powerLevel, int snowball, boolean iceSpear, String gollumName)
-    {
-        super(name, powerLevel);
-        this.snowball = snowball;
-        this.iceSpear = iceSpear;
-        this.gollumName = gollumName;
-    }
+        public IceWizard(String name, int powerLevel, int snowball, boolean iceSpear, String gollumName)
+        {
+            super(name, powerLevel);
+            this.snowball = snowball;
+            this.iceSpear = iceSpear;
+            this.gollumName = gollumName;
+        }
 
     //4) getters
         @Override

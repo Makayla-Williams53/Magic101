@@ -1,9 +1,9 @@
 public class FireWizard extends Wizard
 {
     //1) instance variables
-    int fireBalls;
-    boolean fireSword;
-    String PhoenixName;
+        int fireBalls;
+        boolean fireSword;
+        String PhoenixName;
 
     //2) constructors
     public FireWizard(String name, int powerLevel, int fireBalls, boolean fireSword, String PhoenixName)

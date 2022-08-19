@@ -13,5 +13,8 @@ public class Main
 
         Wizard testElecWizard = new ElectricWizard("Pikachu", 12, 3, true, "Sparky");
         System.out.println(testElecWizard);
+
+        Dragon testDragon = new Dragon("water");
+        System.out.println(testDragon);
     }
 }
